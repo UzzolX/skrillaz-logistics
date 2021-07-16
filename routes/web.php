@@ -12,5 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('user');
+    return view('user.index');
 });
+
+Route::get('/blogs', 'BlogController@index')->name('blog.index');
