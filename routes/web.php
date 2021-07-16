@@ -16,3 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/blogs', 'BlogController@index')->name('blog.index');
+
+//Our Solutions
+Route::get('/for-retailers', 'RetailerController@index')->name('retailer.index');
+Route::get('/for-ecommerce', 'EcommerceController@index')->name('ecommerce.index');
+Route::get('/courier-service', 'CourierServiceController@index')->name('courierservice.index');

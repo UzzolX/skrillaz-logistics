@@ -4,7 +4,7 @@
             <div class="col-xxl-12">
                 <nav class="navbar navbar-expand-lg navbar-light ">
                     <div class="container-fluid p-0">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" href="/">
                             <img src="{{asset('frontend-asstets/assets/image/logo/logo.svg')}}" alt="">
                         </a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -16,9 +16,9 @@
                                 <li class="nav-item">
                                     Our Solutions
                                     <ul>
-                                        <li><a href="">For Retailers</a></li>
-                                        <li><a href="">For E-Commerce</a></li>
-                                        <li><a href="">Courier Service</a></li>
+                                        <li><a href="{{route('retailer.index')}}">For Retailers</a></li>
+                                        <li><a href="{{route('ecommerce.index')}}">For E-Commerce</a></li>
+                                        <li><a href="{{route('courierservice.index')}}">Courier Service</a></li>
                                         <li><a href="">Fleet Solutions</a></li>
                                         <li><a href="">Technology Solutions</a></li>
                                     </ul>
@@ -44,7 +44,7 @@
                                 <li class="nav-item">
                                     Company
                                     <ul>
-                                        <li><a href="">Blog</a></li>
+                                        <li><a href="{{route('blog.index')}}">Blog</a></li>
                                         <li><a href="">Terms and Conditions</a></li>
                                         <li><a href="">Privacy Policy</a></li>
                                         <li><a href="">Time Sensitive Delivery</a></li>
