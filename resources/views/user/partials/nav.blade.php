@@ -26,19 +26,19 @@
                                 <li class="nav-item">
                                     About Skrillaz
                                     <ul>
-                                        <li><a href="">Our Vision</a></li>
-                                        <li><a href="">For Businesses</a></li>
+                                        <li><a href="{{route('ourvision.index')}}">Our Vision</a></li>
+                                        <li><a href="{{route('forbusiness.index')}}">For Businesses</a></li>
                                         <li><a href="">For Couriers</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
                                     Services
                                     <ul>
-                                        <li><a href="">On Demand Delivery</a></li>
-                                        <li><a href="">Same Day Delivery</a></li>
-                                        <li><a href="">Next Day Delivery</a></li>
-                                        <li><a href="">Time Sensitive Delivery</a></li>
-                                        <li><a href="">Client Returns</a></li>
+                                        <li><a href="{{route('on-demand-delivery.index')}}">On Demand Delivery</a></li>
+                                        <li><a href="{{route('same-day-delivery.index')}}">Same Day Delivery</a></li>
+                                        <li><a href="{{route('next-day-delivery.index')}}">Next Day Delivery</a></li>
+                                        <li><a href="{{route('time-sensitive-delivery.index')}}">Time Sensitive Delivery</a></li>
+                                        <li><a href="{{route('client-returns.index')}}">Client Returns</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -47,8 +47,7 @@
                                         <li><a href="{{route('blog.index')}}">Blog</a></li>
                                         <li><a href="">Terms and Conditions</a></li>
                                         <li><a href="">Privacy Policy</a></li>
-                                        <li><a href="">Time Sensitive Delivery</a></li>
-                                        <li><a href="">Contact Us</a></li>
+                                        <li><a href="{{route('contact.index')}}">Contact Us</a></li>
                                     </ul>
                                 </li>
                             </ul>
