@@ -10,9 +10,14 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+
 //Homepage
 Route::get('/', function () {
-    return view('user.index');
+    return view('welcome');
 });
 
 Route::get('/blogs', 'BlogController@index')->name('blog.index');
@@ -39,8 +44,5 @@ Route::get('/client-returns', 'services\ClientReturnsController@index')->name('c
 Route::get('/terms-and-conditions', 'company\TermsAndConditionsController@index')->name('terms-and-conditions.index');
 Route::get('/contact-us', 'ContactController@index')->name('contact.index');
 Route::post('/contact-us/store', 'ContactController@store')->name('contact.store');
-
-
-
 
 
