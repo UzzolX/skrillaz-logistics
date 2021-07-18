@@ -38,6 +38,7 @@ Route::get('/client-returns', 'services\ClientReturnsController@index')->name('c
 //Company
 Route::get('/terms-and-conditions', 'company\TermsAndConditionsController@index')->name('terms-and-conditions.index');
 Route::get('/contact-us', 'ContactController@index')->name('contact.index');
+Route::post('/contact-us/store', 'ContactController@store')->name('contact.store');
 
 
 
