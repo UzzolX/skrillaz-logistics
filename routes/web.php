@@ -45,11 +45,11 @@ Route::get('/terms-and-conditions', 'company\TermsAndConditionsController@index'
 Route::get('/contact-us', 'ContactController@index')->name('contact.index');
 Route::post('/contact-us/store', 'ContactController@store')->name('contact.store');
 
-
+//Admin
 Route::middleware(['admin'])->group(function () {
 
     Route::get('/dashboard', function () {
-        return "admin";
+        return view('admin.index');
     });
 
 });
