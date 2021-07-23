@@ -17,7 +17,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 //Homepage
 Route::get('/', function () {
-    return view('welcome');
+    return view('user.index');
 });
 
 Route::get('/blogs', 'BlogController@index')->name('blog.index');
