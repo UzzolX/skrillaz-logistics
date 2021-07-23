@@ -3,7 +3,7 @@
 
     <!--begin::Logo-->
     <a href="index.html">
-        <img src="backend-assets/assets/media/logos/skrillaz-logo193x40.png" alt="Logo" />
+        <img src="{{asset('backend-assets/assets/media/logos/skrillaz-logo193x40.png')}}" alt="Logo" />
     </a>
     <!--end::Logo-->
 

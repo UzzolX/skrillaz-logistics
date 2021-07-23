@@ -1,3 +1,5 @@
+<!--end::Global Config-->
+
 <!--begin::Global Theme Bundle(used by all pages)-->
 		<script src="{{asset('backend-assets/assets/plugins/global/plugins.bundle.js')}}"></script>
 		<script src="{{asset('backend-assets/assets/plugins/custom/prismjs/prismjs.bundle.js')}}"></script>

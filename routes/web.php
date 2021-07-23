@@ -41,7 +41,7 @@ Route::get('/client-returns', 'services\ClientReturnsController@index')->name('c
 
 
 //Company
-Route::get('/terms-and-conditions', 'company\TermsAndConditionsController@index')->name('terms-and-conditions.index');
+
 Route::get('/contact-us', 'ContactController@index')->name('contact.index');
 Route::post('/contact-us/store', 'ContactController@store')->name('contact.store');
 
@@ -52,4 +52,12 @@ Route::middleware(['admin'])->group(function () {
         return view('admin.index');
     });
 
+    Route::get('/dashboard/blogs', 'admin\BlogsController@index')->name('blogs.index');
+    Route::get('/dashboard/blogs/create', 'admin\BlogsController@create')->name('blogs.create');
+    Route::post('/dashboard/blogs/create', 'admin\BlogsController@store')->name('blogs.store');
+    Route::get('/dashboard/blogs/{id}', 'admin\BlogsController@show')->name('blogs.show');
+    Route::get('/dashboard/blogs/{id}/edit', 'admin\BlogsController@edit')->name('blogs.edit');
+    Route::post('/dashboard/blogs/{id}/update', 'admin\BlogsController@update')->name('blogs.update');
+    Route::get('/dashboard/blogs/{id}/delete', 'admin\BlogsController@destroy')->name('blogs.delete');
+    
 });
