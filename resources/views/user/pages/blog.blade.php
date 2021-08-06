@@ -55,50 +55,22 @@
                 <div class="blog">
                     <div class="row">
                         <!---single-box-blog-start-->
+                        @foreach ($blogs as $blog)
                         <div class="col-xl-4 col-lg-4">
                             <div class="single-box-blog" data-aos="zoom-in" data-aos-duration="2000">
                                 <div class="blog-image">
-                                    <img src="{{asset('frontend-asstets/assets/image/blog/1.png')}}" alt="">
-                                    <span>MOTIVATION</span>
+                                    <img src="{{ asset('images/blogs/' . $blog->image) }}" alt="">
+                                    <span>{{$blog->category}}</span>
                                 </div>
                                 <div class="blog-content">
-                                    <span>05 MARCH 2020</span>
-                                    <h4>Same Day Delivery comes in many different ‘flavours’</h4>
-                                    <a href="#">Read more..</a>
+                                    <span>{{ date('jS M Y', strtotime($blog->updated_at)) }}</span>
+                                    <h4>{{$blog->title}}</h4>
+                                    <a href="/blog/{{ $blog->slug }}">Read more..</a>
                                 </div>
                             </div>
                         </div>
                         <!---single-box-blog-end-->
-                        <!---single-box-blog-start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="single-box-blog" data-aos="zoom-in" data-aos-duration="2000">
-                                <div class="blog-image">
-                                    <img src="{{asset('frontend-asstets/assets/image/blog/1.png')}}" alt="">
-                                    <span>MOTIVATION</span>
-                                </div>
-                                <div class="blog-content">
-                                    <span>05 MARCH 2020</span>
-                                    <h4>Same Day Delivery comes in many different ‘flavours’</h4>
-                                    <a href="#">Read more..</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!---single-box-blog-end-->
-                        <!---single-box-blog-start-->
-                        <div class="col-xl-4 col-lg-4">
-                            <div class="single-box-blog" data-aos="zoom-in" data-aos-duration="2000">
-                                <div class="blog-image">
-                                    <img src="{{asset('frontend-asstets/assets/image/blog/1.png')}}" alt="">
-                                    <span>MOTIVATION</span>
-                                </div>
-                                <div class="blog-content">
-                                    <span>05 MARCH 2020</span>
-                                    <h4>Same Day Delivery comes in many different ‘flavours’</h4>
-                                    <a href="#">Read more..</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!---single-box-blog-end-->
+                        @endforeach
                     </div>
                 </div>
             </div>
