@@ -59,5 +59,7 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/dashboard/blogs/{id}/edit', 'admin\BlogsController@edit')->name('blogs.edit');
     Route::post('/dashboard/blogs/{id}/update', 'admin\BlogsController@update')->name('blogs.update');
     Route::get('/dashboard/blogs/{id}/delete', 'admin\BlogsController@destroy')->name('blogs.delete');
+
+    Route::get('/dashboard/blogs', 'admin\BlogsController@heroSection')->name('blogsHero.index');
     
 });
