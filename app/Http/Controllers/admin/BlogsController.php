@@ -128,4 +128,9 @@ class BlogsController extends Controller
 
         return redirect('dashboard/blogs')->with('message', 'Data is successfully deleted');
     }
+
+    public function heroSection()
+    {
+        return view('admin.blog.blog-create');
+    }
 }
