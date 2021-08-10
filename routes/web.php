@@ -60,6 +60,18 @@ Route::middleware(['admin'])->group(function () {
     Route::post('/dashboard/blogs/{id}/update', 'admin\BlogsController@update')->name('blogs.update');
     Route::get('/dashboard/blogs/{id}/delete', 'admin\BlogsController@destroy')->name('blogs.delete');
 
-    Route::get('/dashboard/blogs', 'admin\BlogsController@heroSection')->name('blogsHero.index');
+    Route::get('/dashboard/blogs/edit-page', 'admin\BlogsController@heroSection')->name('blogsHero.index');
+
+    //Privacy & Policy
+    Route::get('/dashboard/privacy-and-policy', 'admin\settings\PrivacyPolicyController@index')->name('privacy.index');
+    Route::get('/dashboard/privacy-and-policy/create', 'admin\settings\PrivacyPolicyController@create')->name('privacy.create');
+    Route::post('/dashboard/privacy-and-policy/create', 'admin\settings\PrivacyPolicyController@store')->name('privacy.store');
+    Route::get('/dashboard/privacy-and-policy/{id}/edit', 'admin\settings\PrivacyPolicyController@edit')->name('privacy.edit');
+    Route::get('/dashboard/privacy-and-policy/{id}/update', 'admin\settings\PrivacyPolicyController@update')->name('privacy.update');
+    Route::get('/dashboard/privacy-and-policy/{id}/delete', 'admin\settings\PrivacyPolicyController@destroy')->name('privacy.delete');
+    
     
 });
+
+//Privacy & Policy Front
+Route::get('/privacy-and-policy', 'admin\settings\PrivacyPolicyController@indexFront')->name('privacyFront.index');

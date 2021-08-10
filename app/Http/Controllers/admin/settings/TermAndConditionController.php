@@ -10,8 +10,8 @@ class TermAndConditionController extends Controller
 {
     public function index()
     {
-        $blog = TermAndCondition::all();
-        return view('admin.termscondition.terms-index', compact('blog'));
+        $terms = TermAndCondition::all();
+        return view('admin.company.termscondition.terms-index', compact('terms'));
     }
 
     /**
@@ -21,6 +21,6 @@ class TermAndConditionController extends Controller
      */
     public function create()
     {
-        return view('admin.termscondition.terms-create');
+        return view('admin.company.termscondition.terms-create');
     }
 }
