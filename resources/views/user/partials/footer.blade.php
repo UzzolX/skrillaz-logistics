@@ -5,18 +5,18 @@
                     <div class="row">
                         <div class="col-xl-3 d-none-xl ">
                             <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
-                                <button><a href="#">Get in touch</a></button>
+                                <button><a href="{{route('contact.index')}}">Get in touch</a></button>
                             </div>
                         </div>
                         <div class=" col-xxl-2 col-xl-3 col-lg-3 ">
                             <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
                                 <ul>
                                     <h5>Our Solutions</h5>
-                                    <li><a href="#">Technology Solutions</a></li>
-                                    <li><a href="#">For E-Commerce</a></li>
-                                    <li><a href="#">Courier Service </a></li>
-                                    <li><a href="#">Fleet Solutions </a></li>
-                                    <li><a href="#"> For Retailers</a></li>
+                                    <li><a href="{{route('technology.index')}}">Technology Solutions</a></li>
+                                    <li><a href="{{route('ecommerce.index')}}">For E-Commerce</a></li>
+                                    <li><a href="{{route('courierservice.index')}}">Courier Service</a></li>
+                                    <li><a href="#">Fleet Solutions</a></li>
+                                    <li><a href="{{route('retailer.index')}}">For Retailers</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -24,11 +24,11 @@
                             <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
                                 <ul>
                                     <h5>Skrillaz</h5>
-                                    <li><a href="#">For Businesses</a></li>
+                                    <li><a href="{{route('forbusiness.index')}}">For Businesses</a></li>
                                     <li><a href="#">For Couriers</a></li>
-                                    <li><a href="#">Our Vision </a></li>
-                                    <li><a href="#">Contact Us </a></li>
-                                    <li><a href="#"> Blog</a></li>
+                                    <li><a href="{{route('ourvision.index')}}">Our Vision</a></li>
+                                    <li><a href="{{route('contact.index')}}">Contact Us</a></li>
+                                    <li><a href="{{route('blog.index')}}">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -36,10 +36,10 @@
                             <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
                                 <ul>
                                     <h5>Our Services</h5>
-                                    <li><a href="#">Time Sensitive Delivery </a></li>
-                                    <li><a href="#">On Demand Delivery </a></li>
-                                    <li><a href="#">Same Day Delivery </a></li>
-                                    <li><a href="#">Next Day Delivery </a></li>
+                                    <li><a href="{{route('time-sensitive-delivery.index')}}">Time Sensitive Delivery </a></li>
+                                    <li><a href="{{route('on-demand-delivery.index')}}">On Demand Delivery </a></li>
+                                    <li><a href="{{route('same-day-delivery.index')}}">Same Day Delivery </a></li>
+                                    <li><a href="{{route('next-day-delivery.index')}}">Next Day Delivery </a></li>
                                 </ul>
                             </div>
                         </div>
