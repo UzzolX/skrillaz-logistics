@@ -2332,6 +2332,7 @@ button#slick-slide-control02 {
 
 .app-ss img {
     width: 300px;
+    border-radius: 25px; /*This line is to fixed transparency issue*/
 }
 
 .app-ss {
