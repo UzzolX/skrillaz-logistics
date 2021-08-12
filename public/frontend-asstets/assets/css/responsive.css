@@ -641,7 +641,7 @@
     .technology-banner {
         transform: translate(-50%, -50%);
         text-align: center;
-        width: 500px;
+        width: 350px !important;
     }
     .app-ss img {
         width: 220px;
@@ -653,13 +653,15 @@
         font-size: 25px;
     }
     .download-app a button {
-        padding: 10px 15px;
+        padding: 5px 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
     }
     .download-app a button i {
         font-size: 30px;
     }
     .download-app a button strong {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .app-ss {
         margin-bottom: 80px;
