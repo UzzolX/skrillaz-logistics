@@ -21,6 +21,14 @@
         margin: 0px;
     }
     /*index end*/
+    /*technology page start*/
+    .technology-banner {
+        transform: translate(-93%, -50%);
+    }
+    .technology-banner-image img {
+        transform: translate(-5%, -55%);
+    }
+    /*technology page start*/
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -84,6 +92,21 @@
         min-height: 390px;
     }
     /*blog end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        width: 600px;
+        top: 56%;
+    }
+    .technology-banner {
+        transform: translate(-78%, -50%);
+    }
+    .app-ss img {
+        width: 250px;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    /*technology-page end*/
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -229,6 +252,42 @@
         width: 400px;
     }
     /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        width: 450px;
+        top: 64%;
+        left: 45%;
+    }
+    .technology-banner {
+        transform: translate(-70%, -50%);
+        width: 500px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 10px 15px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 16px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .ss-md img {
+        width: 100%;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    .row.d-flex.align-items-center.lg-app {
+        flex-direction: row !important;
+    }
+    /*technology-page end*/
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -381,6 +440,41 @@
         margin-bottom: 40px;
     }
     /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        display: none;
+    }
+    .technology-banner {
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 500px;
+    }
+    .app-ss img {
+        width: 220px;
+    }
+    .more-ss img {
+        width: 150px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 10px 15px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 16px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    /*technology-page end*/
 }
 
 @media (max-width: 575px) {
@@ -540,4 +634,42 @@
         margin-bottom: 40px;
     }
     /*Services-Next-Day-Delivery end*/
+    /*technology-page start*/
+    .technology-banner-image img {
+        display: none;
+    }
+    .technology-banner {
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 500px;
+    }
+    .app-ss img {
+        width: 220px;
+    }
+    .more-ss img {
+        width: 150px;
+    }
+    .technology-banner h1 {
+        font-size: 25px;
+    }
+    .download-app a button {
+        padding: 10px 15px;
+    }
+    .download-app a button i {
+        font-size: 30px;
+    }
+    .download-app a button strong {
+        font-size: 16px !important;
+    }
+    .app-ss {
+        margin-bottom: 80px;
+    }
+    .mt-md {
+        margin-top: 80px;
+        margin-bottom: 0px;
+    }
+    .lg-app {
+        flex-flow: row-reverse !important;
+    }
+    /*technology-page end*/
 }

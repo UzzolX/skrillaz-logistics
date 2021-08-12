@@ -1319,6 +1319,10 @@ a {
     padding-right: 200px
 }
 
+.bg-color-white {
+    background-color: white;
+}
+
 
 /**/
 
@@ -2252,3 +2256,104 @@ button#slick-slide-control02 {
 
 
 /*animation end*/
+
+
+/*technology start*/
+
+.technology-banner-image img {
+    position: absolute;
+    z-index: 2 !important;
+    left: 50%;
+    width: 700px;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+.technology-banner {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    width: 600px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-108%, -50%);
+}
+
+.technology-banner h1 span {
+    color: #30b0e6;
+    font-weight: 600;
+}
+
+.technology-banner h1 {
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.download-app a button {
+    background: #161719;
+    border: 0px;
+    transition: 0.3s;
+    padding: 20px 20px;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+}
+
+.download-app a button strong {
+    display: flex;
+    flex-flow: column;
+    font-size: 18px;
+    text-align: left;
+}
+
+.download-app a button strong span {
+    font-weight: 300;
+}
+
+.download-app a button i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.download-app {
+    display: inline-block;
+}
+
+.download-app {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.download-app a button:hover {
+    background: #30b0e6;
+    transition: 0.3s;
+}
+
+.app-ss img {
+    width: 300px;
+}
+
+.app-ss {
+    text-align: center;
+}
+
+.more-ss img {
+    width: 100%;
+}
+
+.ss-details ul {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ss-details ul li {
+    font-weight: 400;
+    margin-left: 16px;
+    margin-top: 20px;
+    list-style: disc;
+    font-size: 14px !important;
+}
+
+
+/*technology end*/

@@ -20,7 +20,7 @@
                                         <li><a href="{{route('ecommerce.index')}}">For E-Commerce</a></li>
                                         <li><a href="{{route('courierservice.index')}}">Courier Service</a></li>
                                         <li><a href="">Fleet Solutions</a></li>
-                                        <li><a href="">Technology Solutions</a></li>
+                                        <li><a href="{{route('technology.index')}}">Technology Solutions</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
