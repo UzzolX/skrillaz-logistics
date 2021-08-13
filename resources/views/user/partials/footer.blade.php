@@ -9,7 +9,7 @@
                             </div>
                         </div>
                         <div class=" col-xxl-2 col-xl-3 col-lg-3 ">
-                            <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="top-footer-content" >
                                 <ul>
                                     <h5>Our Solutions</h5>
                                     <li><a href="{{route('technology.index')}}">Technology Solutions</a></li>
@@ -21,7 +21,7 @@
                             </div>
                         </div>
                         <div class=" col-xxl-2 col-xl-3 col-lg-3 ">
-                            <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="top-footer-content" >
                                 <ul>
                                     <h5>Skrillaz</h5>
                                     <li><a href="{{route('forbusiness.index')}}">For Businesses</a></li>
@@ -33,7 +33,7 @@
                             </div>
                         </div>
                         <div class=" col-xxl-2 col-xl-3 col-lg-3 ">
-                            <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="top-footer-content" >
                                 <ul>
                                     <h5>Our Services</h5>
                                     <li><a href="{{route('time-sensitive-delivery.index')}}">Time Sensitive Delivery </a></li>
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class=" col-xxl-2 col-xl-3 col-lg-3 ">
-                            <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="top-footer-content" >
                                 <ul>
                                     <h5>social media</h5>
                                     <li>
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class=" col-xxl-6 col-xl-4 col-lg-4">
-                        <div class="logo-footer" data-aos="zoom-in" data-aos-duration="2000">
+                        <div class="logo-footer" >
                             <img src="{{asset('frontend-asstets/assets/image/logo/logo-footer.svg')}}" alt="">
                         </div>
                     </div>
