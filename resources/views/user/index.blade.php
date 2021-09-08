@@ -27,7 +27,7 @@
                                 <h1>No More frustration with the delivery sector.</h1>
                                 <p>Our fast, convenient and reliable last-mile delivery solutions across London and the UK for all kinds of business; from household name retail brands to local independent restaurants.
                                 </p>
-                                <button><a href="#">Get Started</a></button>
+                                <button><a href="{{route('contact.index')}}">Get Started</a></button>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6">
@@ -176,7 +176,7 @@
                             <span>A short brief</span>
                             <h1>Here to Help Your Every Business Need</h1>
                             <p>Stop worrying any shipping problems. Focus on your business. Let us provide the support you deserve.</p>
-                            <button><a href="#">Get a Free Quote</a></button>
+                            <button><a href="{{route('contact.index')}}">Get a Free Quote</a></button>
                         </div>
                     </div>
                 </div>

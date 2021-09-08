@@ -4,7 +4,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-3 d-none-xl ">
-                            <div class="top-footer-content" data-aos="zoom-in" data-aos-duration="2000">
+                            <div class="top-footer-content" data-aos="zoom-out" data-aos-duration="1500">
                                 <button><a href="{{route('contact.index')}}">Get in touch</a></button>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                     </div>
 
                     <div class=" col-xxl-6 col-xl-4 col-lg-4">
-                        <div class="logo-footer" >
+                        <div class="logo-footer" data-aos="fade-up" >
                             <img src="{{asset('frontend-asstets/assets/image/logo/logo-footer.svg')}}" alt="">
                         </div>
                     </div>
