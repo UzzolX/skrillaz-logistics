@@ -19,7 +19,7 @@
     <!----------------------------------------main area start---------------------------------------->
     <main class="main-area">
         <!--banner area start-->
-        <section class="top-header Vision position-relative" style="background-image: url(frontend-asstets/assets/image/Terms-and-conditions/1.jpg);height: 500px;">
+        <section class="top-header Vision position-relative" style="background-image: url(frontend-asstets/assets/image/terms-and-conditions/1.jpg);height: 500px;">
             <div class="Vision-banner">
                 <h1 data-aos="zoom-in" data-aos-duration="2000">Terms and Conditions</h1>
             </div>
