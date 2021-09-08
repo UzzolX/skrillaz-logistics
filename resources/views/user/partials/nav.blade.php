@@ -45,8 +45,8 @@
                                     Company
                                     <ul>
                                         <li><a href="{{route('blog.index')}}">Blog</a></li>
-                                        <li><a href="">Terms and Conditions</a></li>
-                                        <li><a href="">Privacy Policy</a></li>
+                                        <li><a href="{{route('termsFront.index')}}">Terms and Conditions</a></li>
+                                        <li><a href="{{route('privacyFront.index')}}">Privacy Policy</a></li>
                                         <li><a href="{{route('contact.index')}}">Contact Us</a></li>
                                     </ul>
                                 </li>

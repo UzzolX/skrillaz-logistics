@@ -42,9 +42,11 @@ Route::get('/client-returns', 'services\ClientReturnsController@index')->name('c
 
 
 //Company
-
+Route::get('/privacy-and-policy', 'admin\settings\PrivacyPolicyController@indexFront')->name('privacyFront.index');
+Route::get('/terms-and-conditions', 'admin\settings\TermAndConditionController@indexFront')->name('termsFront.index');
 Route::get('/contact-us', 'ContactController@index')->name('contact.index');
 Route::post('/contact-us/store', 'ContactController@store')->name('contact.store');
+
 
 //Admin
 Route::middleware(['admin'])->group(function () {
@@ -70,9 +72,4 @@ Route::middleware(['admin'])->group(function () {
     Route::get('/dashboard/privacy-and-policy/{id}/edit', 'admin\settings\PrivacyPolicyController@edit')->name('privacy.edit');
     Route::get('/dashboard/privacy-and-policy/{id}/update', 'admin\settings\PrivacyPolicyController@update')->name('privacy.update');
     Route::get('/dashboard/privacy-and-policy/{id}/delete', 'admin\settings\PrivacyPolicyController@destroy')->name('privacy.delete');
-    
-    
 });
-
-//Privacy & Policy Front
-Route::get('/privacy-and-policy', 'admin\settings\PrivacyPolicyController@indexFront')->name('privacyFront.index');

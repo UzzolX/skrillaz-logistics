@@ -8,9 +8,19 @@ use App\Models\Settings\TermAndCondition;
 
 class TermAndConditionController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware(['admin'], ['except' => array('indexFront')]);
+    }
+
+    public function indexFront()
+    {
+        return view('user.pages.company.terms-and-conditions');
+    }
+
     public function index()
     {
-        $terms = TermAndCondition::all();
+        // $terms = TermAndCondition::all();
         return view('admin.company.termscondition.terms-index', compact('terms'));
     }
 
