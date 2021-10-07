@@ -20,7 +20,7 @@
     <main class="main-area">
 
         <!--banner area start-->
-        <section class="top-header Vision position-relative" style="background-image: url(frontend-asstets/assets/image/Time-Sensitive-Delivery/1.png);height: 600px;">
+        <section class="top-header Vision position-relative" style="background-image: url(frontend-asstets/assets/image/time-sensitive-delivery/1.png);height: 600px;">
             <div class="Vision-banner">
                 <h1 data-aos="zoom-in" data-aos-duration="2000">For Courier </h1>
             </div>

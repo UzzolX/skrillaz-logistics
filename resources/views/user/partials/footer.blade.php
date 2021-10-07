@@ -15,7 +15,7 @@
                                     <li><a href="{{route('technology.index')}}">Technology Solutions</a></li>
                                     <li><a href="{{route('ecommerce.index')}}">For E-Commerce</a></li>
                                     <li><a href="{{route('courierservice.index')}}">Courier Service</a></li>
-                                    <li><a href="#">Fleet Solutions</a></li>
+                                    <li><a href="{{route('fleet.index')}}">Fleet Solutions</a></li>
                                     <li><a href="{{route('retailer.index')}}">For Retailers</a></li>
                                 </ul>
                             </div>
@@ -25,7 +25,7 @@
                                 <ul>
                                     <h5>Skrillaz</h5>
                                     <li><a href="{{route('forbusiness.index')}}">For Businesses</a></li>
-                                    <li><a href="#">For Couriers</a></li>
+                                    <li><a href="{{route('forcourier.index')}}">For Couriers</a></li>
                                     <li><a href="{{route('ourvision.index')}}">Our Vision</a></li>
                                     <li><a href="{{route('contact.index')}}">Contact Us</a></li>
                                     <li><a href="{{route('blog.index')}}">Blog</a></li>
@@ -82,8 +82,8 @@
 
                     <div class="col-xxl-3 col-xl-4 col-lg-4">
                         <div class="tandc">
-                            <a href=""><span>Terms and Conditions</span></a>
-                            <a href=""><span>Privacy Policy</span></a>
+                            <a href="{{route('termsFront.index')}}"><span>Terms and Conditions</span></a>
+                            <a href="{{route('privacyFront.index')}}"><span>Privacy Policy</span></a>
                         </div>
                     </div>
                 </div>
