@@ -2524,3 +2524,123 @@ button#slick-slide-control02 {
     margin-bottom: 50px;
 }
 /*Client-Returns-end*/
+
+/*fleet solutions start*/
+
+.fleet-logistics-single-box img {
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.fleet-logistics-single-box {
+    display: flex;
+    align-items: center;
+    padding: 40px 40px;
+    justify-content: center;
+    margin: 40px 20px;
+    height: 400px;
+    box-shadow: 0 0 20px #dedede;
+    text-align: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+img span {
+    font-weight: 700;
+}
+
+.fleet-logistics-single-box span {
+    font-size: 30px;
+    color: #30b0e6;
+    font-weight: 600;
+}
+
+.fleet-logistics-single-box p {
+    color: #838383;
+    margin-top: 20px;
+}
+
+.mid-banner {
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    position: relative;
+}
+
+.mid-banner:after {
+    position: absolute;
+    background: #15739b87;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.Fleet.Management {
+    position: absolute;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Fleet.Management h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.Fleet.Management p {
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.main-title-operator {
+    background: #30b0e6;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.single-box-operator {
+    background: white;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px 10px;
+    height: 480px;
+    border-radius: 20px;
+    border: 1px solid #30b0e6;
+}
+
+.operator-content {
+    padding: 25px 20px;
+}
+
+.operator-content h3 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #30b0e6;
+}
+
+.operator-content p {
+    color: #4e4e4e;
+    font-weight: 400;
+}
+
+.left-requirement-main {
+    padding: 0px 40px;
+}
+
+.left-requirement-contant h2 {
+    color: #30b0e6;
+}
+
+.sub-contant h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+/*fleet solutions end*/

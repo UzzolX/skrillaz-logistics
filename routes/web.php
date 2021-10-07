@@ -27,6 +27,7 @@ Route::get('/for-retailers', 'RetailerController@index')->name('retailer.index')
 Route::get('/for-ecommerce', 'EcommerceController@index')->name('ecommerce.index');
 Route::get('/courier-service', 'CourierServiceController@index')->name('courierservice.index');
 Route::get('/technology-solutions', 'oursolutions\TechnologySolutionController@index')->name('technology.index');
+Route::get('/fleet-solutions', 'oursolutions\FleetSolutionsController@index')->name('fleet.index');
 
 //About Skrillaz
 Route::get('/our-vision', 'OurVisionController@index')->name('ourvision.index');
