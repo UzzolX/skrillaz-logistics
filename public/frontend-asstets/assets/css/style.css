@@ -2461,3 +2461,66 @@ button#slick-slide-control02 {
     width: 1000px;
 }
 /*time-sensitive-delivery-end*/
+
+/*Client-Returns-start*/
+
+.banner-info p {
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+    text-shadow: 0px 0px 20px #000000;
+}
+
+.banner-info {
+    width: 1000px;
+}
+
+.right-arrow {
+    color: #cfcfcf;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    right: -50px;
+    text-align: 0;
+    top: 20px;
+    font-size: 30px;
+}
+
+.left-arrow {
+    color: #cfcfcf;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    left: -50px;
+    text-align: 0;
+    top: 20px;
+    font-size: 30px;
+}
+
+.content-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.content-title span {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.left-content-info p {
+    font-size: 20px;
+    color: #7a7a7b;
+}
+
+.right-image img {
+    width: 100%;
+}
+
+.Bottom-Line {
+    text-align: center;
+}
+
+.Bottom-Line h2 {
+    margin-bottom: 50px;
+}
+/*Client-Returns-end*/
