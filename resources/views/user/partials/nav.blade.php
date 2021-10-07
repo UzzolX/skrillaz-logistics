@@ -28,7 +28,7 @@
                                     <ul>
                                         <li><a href="{{route('ourvision.index')}}">Our Vision</a></li>
                                         <li><a href="{{route('forbusiness.index')}}">For Businesses</a></li>
-                                        <li><a href="">For Couriers</a></li>
+                                        <li><a href="{{route('forcourier.index')}}">For Couriers</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
