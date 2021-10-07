@@ -360,12 +360,12 @@
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="app-ss mt-md">
-                                    <img src="{{asset('frontend-asstets/assets/image/technology-solutions/app/14.png')}}" alt="">
+                                    <img src="{{asset('frontend-asstets/assets/image/technology-solutions/app/14-new.png')}}" alt="">
                                 </div>
                             </div>
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="app-ss mt-md">
-                                    <img src="{{asset('frontend-asstets/assets/image/technology-solutions/app/15.png')}}" alt="">
+                                    <img src="{{asset('frontend-asstets/assets/image/technology-solutions/app/15-new.png')}}" alt="">
                                 </div>
                             </div>
                         </div>
